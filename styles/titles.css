@@ -1,0 +1,27 @@
+/* TITLES */
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 45px;
+  color: #094d92;
+}
+h2 {
+  font-family: "Roboto Slab", serif;
+  color: #094d92;
+  font-size: 36px;
+}
+
+.title-box h2 {
+  color: white;
+}
+
+h3 {
+    font-family: Lato, system-ui, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Lato, system-ui, sans-serif;
+    font-weight: light;
+    font-size: 20px;
+}

@@ -1,0 +1,70 @@
+/* COLORS
+blue: #094D92
+gold: #F4D35E
+black: #06111C
+*/
+
+/* GENERAL STYLES */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Lato, system-ui, sans-serif;
+  color: #06111c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+
+/* DISPLAY HELPERS */
+.d-flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+
+.title-box {
+  margin-top: -150px;
+  padding: 0 1rem;
+  color: white;
+  z-index: 999;
+  /* border: 1px solid darkseagreen; */
+  position: relative;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem
+}
+
+.title-box * {
+  margin: 0;
+}
+
+.title-banner {
+  margin-top: -170px;
+  width: 100%;
+  max-width: 1280px;
+  top: 0;
+  left: calc(100% / 2 - 640px);
+}

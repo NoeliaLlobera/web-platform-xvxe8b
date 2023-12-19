@@ -1,0 +1,36 @@
+/* COLORS
+blue: #094D92
+gold: #F4D35E
+black: #06111C
+*/
+
+/* DISPLAY HELPERS */
+.d-flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.gap-1 {
+  gap: 1rem;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+/* COLOR HELPERS */
+.color-blue {
+  color: #094d92 !important;
+}
+.color-gold {
+  color: #f4d35e !important;
+}
+.background-blue {
+  background-color: #094d92 !important;
+}
+.background-gold {
+  background-color: #f4d35e !important;
+}

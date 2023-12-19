@@ -1,0 +1,108 @@
+/* NAV BAR */
+.desktop-nav-container {
+    background-color: #094d92;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0.8rem 1.5rem; */
+  }
+  .mobile-nav-container {
+    background-color: #094d92;
+    padding: 0.8rem 1.5rem;
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .desktop-nav-container {
+      display: none;
+    }
+    .mobile-nav-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  
+  .desktop-nav-container > ul {
+    height: 120px;
+    margin: 0 15px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  nav li {
+    list-style: none;
+  }
+  
+  .nav-element {
+    display: flex;
+    align-items: center;
+    height: 120px;
+  
+    margin: 0;
+  }
+  
+  nav li :hover {
+    text-decoration: underline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav img {
+    display: block;
+    height: 100px;
+    margin: 10px 15px;
+  }
+  nav button {
+    background-color: unset;
+    border: unset;
+  }
+  nav button :hover {
+    cursor: pointer;
+  }
+  
+  .has-subcategories::before {
+    content: '';
+    background-image: url(../img/icons/down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 0.6rem;
+    width: 0.8rem;
+    margin-right: 0.2rem;
+  }
+  
+  .subcategories-container {
+    display: none;
+    position: absolute;
+    margin-top: 300px;
+    background-color: none;
+    padding: 0.5rem 3rem;
+    width: 200px;
+    margin-left: -50px;
+  }
+  
+  .subcategories-container :hover {
+    display: block;
+  }
+  
+  .list-with-subs:hover .subcategories-container {
+    display: block;
+  }
+  
+  .subcategories-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    width: 200px;
+    margin-left: -50px;
+    background-color: #094d92;
+  }
+  .subcategories-container li {
+    margin: 0.5rem 0;
+  }
